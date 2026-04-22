@@ -30,24 +30,24 @@ function ContactPage() {
 
       <section className="py-16">
         <div className="mx-auto grid max-w-5xl gap-5 px-4 sm:grid-cols-2 sm:px-6">
-          <a href="https://wa.me/919270292020" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/917218834640" target="_blank" rel="noopener noreferrer"
             className="group rounded-3xl bg-mint p-8 transition-transform hover:-translate-y-1">
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-sm">
               <MessageCircle className="h-7 w-7 text-mint-foreground" />
             </div>
             <h3 className="mt-5 font-display text-2xl font-bold">WhatsApp us</h3>
             <p className="mt-2 text-foreground/70">Fastest way. Tell us what you need and we'll match a helper within hours.</p>
-            <div className="mt-4 font-bold text-primary">+91 92702 92020 →</div>
+            <div className="mt-4 font-bold text-primary">+91 72188 34640 →</div>
           </a>
 
-          <a href="tel:+919270292020"
+          <a href="tel:+917218834640"
             className="group rounded-3xl bg-peach p-8 transition-transform hover:-translate-y-1">
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-sm">
               <Phone className="h-7 w-7 text-peach-foreground" />
             </div>
             <h3 className="mt-5 font-display text-2xl font-bold">Call us</h3>
             <p className="mt-2 text-foreground/70">Prefer a chat? We're on the line every day from 8am to 9pm.</p>
-            <div className="mt-4 font-bold text-primary">+91 92702 92020 →</div>
+            <div className="mt-4 font-bold text-primary">+91 72188 34640 →</div>
           </a>
 
           <div className="rounded-3xl bg-sky p-8">

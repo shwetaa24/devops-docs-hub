@@ -3,7 +3,7 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { BookOpen, Baby, Palette, Music, Dumbbell, Languages, Calculator, Stars } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/919270292020";
+const WHATSAPP = "https://wa.me/917218834640";
 
 export const Route = createFileRoute("/services")({
   head: () => ({

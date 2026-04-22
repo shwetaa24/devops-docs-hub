@@ -7,7 +7,7 @@ import heroSitter from "@/assets/hero-sitter.png";
 import heroArt from "@/assets/hero-art.png";
 import kidsPlaying from "@/assets/kids-playing.jpg";
 
-const WHATSAPP = "https://wa.me/919270292020";
+const WHATSAPP = "https://wa.me/917218834640";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -230,9 +230,9 @@ function CTA() {
             className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-bold text-primary shadow-[0_5px_0_rgba(0,0,0,0.15)] hover:-translate-y-0.5 transition-transform">
             Book on WhatsApp
           </a>
-          <a href="tel:+919270292020"
+          <a href="tel:+917218834640"
             className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-7 py-3.5 text-base font-bold text-white hover:bg-white/10">
-            Call +91 92702 92020
+            Call +91 72188 34640
           </a>
         </div>
       </div>
