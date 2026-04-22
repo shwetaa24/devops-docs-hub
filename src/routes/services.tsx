@@ -1,17 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
-import { BookOpen, Baby, Palette, Music, Dumbbell, Languages, Calculator, Stars } from "lucide-react";
+import { BookOpen, Baby, Palette, Music, Dumbbell, Languages, Calculator, Stars, MessageCircle } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/917218834640";
+const WHATSAPP = "#";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services for kids — KidHelp" },
-      { name: "description", content: "Tutoring, babysitting, art, music, sports & language classes for children. Verified helpers, fixed rates." },
-      { property: "og:title", content: "Services for kids — KidHelp" },
-      { property: "og:description", content: "Tutoring, babysitting, art, music & more — verified helpers at fixed rates." },
+      { title: "Infrastructure Services — DevOps Docs Hub" },
+      { name: "description", content: "Explore our documentation on cloud infrastructure, CI/CD pipelines, and security automation." },
+      { property: "og:title", content: "Infrastructure Services — DevOps Docs Hub" },
+      { property: "og:description", content: "Comprehensive documentation and guides for DevOps, infrastructure, and automation." },
     ],
   }),
   component: ServicesPage,
@@ -34,8 +34,8 @@ function ServicesPage() {
       <Header />
       <section className="bg-hero py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 text-center sm:px-6">
-          <h1 className="font-display text-5xl font-bold sm:text-6xl">Services for your <span className="text-primary">little ones</span></h1>
-          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">Every helper is background-checked, friendly and trained to work with children.</p>
+          <h1 className="font-display text-5xl font-bold sm:text-6xl">Documentation <span className="text-primary">Categories</span></h1>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">Expertly curated guides for modern infrastructure and engineering workflows.</p>
         </div>
       </section>
 
@@ -49,10 +49,12 @@ function ServicesPage() {
               <h3 className="mt-5 font-display text-xl font-semibold">{s.title}</h3>
               <p className="mt-1 text-sm font-bold text-primary">{s.price}</p>
               <p className="mt-2 text-sm text-foreground/70">{s.desc}</p>
-              <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
-                className="mt-5 inline-flex rounded-full bg-foreground px-4 py-2 text-xs font-bold text-background hover:bg-primary transition-colors">
-                Book on WhatsApp
-              </a>
+                <div
+                  className="mt-5 inline-flex rounded-full bg-foreground p-3 text-xs font-bold text-background"
+                  aria-label="Book on WhatsApp"
+                >
+                  <MessageCircle className="h-5 w-5" />
+                </div>
             </div>
           ))}
         </div>

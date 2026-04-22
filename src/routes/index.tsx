@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ShieldCheck, BadgeIndianRupee, Clock, MapPin, Sparkles, Heart, BookOpen, Palette, Baby, Music } from "lucide-react";
+import { ShieldCheck, BadgeIndianRupee, Clock, MapPin, Sparkles, Heart, BookOpen, Palette, Baby, Music, MessageCircle, Phone } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 const heroTutor = "/assets/hero-tutor.png";
@@ -7,15 +7,15 @@ const heroSitter = "/assets/hero-sitter.png";
 const heroArt = "/assets/hero-art.png";
 const kidsPlaying = "/assets/kids-playing.jpg";
 
-const WHATSAPP = "https://wa.me/917218834640";
+const WHATSAPP = "#";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "KidHelp — Trusted tutors, sitters & coaches for kids" },
-      { name: "description", content: "Verified tutors, babysitters and activity coaches for your children. Fixed prices, on-time, fully background checked. Book on WhatsApp." },
-      { property: "og:title", content: "KidHelp — Trusted tutors, sitters & coaches for kids" },
-      { property: "og:description", content: "Verified, fixed-price help for parents — tutoring, babysitting, art, music & more." },
+      { title: "DevOps Docs Hub — Infrastructure & Deployment Guides" },
+      { name: "description", content: "Comprehensive documentation and guides for DevOps, infrastructure, and automation." },
+      { property: "og:title", content: "DevOps Docs Hub" },
+      { property: "og:description", content: "Infrastructure & Deployment Guides for modern engineering teams." },
     ],
   }),
   component: Home,
@@ -48,21 +48,13 @@ function Hero() {
             <Sparkles className="h-3.5 w-3.5" /> 100% verified helpers
           </span>
           <h1 className="mt-5 font-display text-5xl font-bold leading-[1.05] text-foreground sm:text-6xl md:text-7xl">
-            Trusted help <br />for parents in{" "}
-            <span className="text-primary">Kolhapur</span>
+            Modern <br />Engineering <br />
+            <span className="text-primary">Docs Hub</span>
           </h1>
           <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-            KidHelp connects you with verified tutors, babysitters and activity coaches for your children. Safe, reliable and always on time.
+            Centralized documentation for your infrastructure, CI/CD pipelines, and cloud architecture. Clear, concise, and always up to date.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href={WHATSAPP}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-base font-bold text-primary-foreground shadow-[0_5px_0_oklch(0.45_0.22_255)] transition-transform hover:-translate-y-0.5 active:translate-y-0 active:shadow-[0_0_0_oklch(0.45_0.22_255)]"
-            >
-              Book on WhatsApp
-            </a>
             <a
               href="#how-it-works"
               className="inline-flex items-center gap-2 rounded-full border-2 border-foreground/15 bg-white px-7 py-3.5 text-base font-bold text-foreground hover:border-primary hover:text-primary transition-colors"
@@ -226,14 +218,9 @@ function CTA() {
           One quick message on WhatsApp and your child's helper is on the way.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-bold text-primary shadow-[0_5px_0_rgba(0,0,0,0.15)] hover:-translate-y-0.5 transition-transform">
-            Book on WhatsApp
-          </a>
-          <a href="tel:+917218834640"
-            className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-7 py-3.5 text-base font-bold text-white hover:bg-white/10">
-            Call +91 72188 34640
-          </a>
+          <div className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-5 py-5 text-base font-bold text-white">
+            <Phone className="h-6 w-6" />
+          </div>
         </div>
       </div>
     </section>
