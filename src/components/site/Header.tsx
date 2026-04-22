@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/919270292020";
+const WHATSAPP = "https://wa.me/917218834640";
 
 export function Header() {
   return (
@@ -22,7 +22,7 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <a
-            href="tel:+919270292020"
+            href="tel:+917218834640"
             aria-label="Call KidHelp"
             className="hidden h-10 w-10 items-center justify-center rounded-full border-2 border-foreground/10 text-foreground hover:border-primary hover:text-primary transition-colors sm:inline-flex"
           >

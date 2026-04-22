@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ShieldCheck, BadgeIndianRupee, Clock, MapPin, Sparkles, Heart, BookOpen, Palette, Baby, Music } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
-import heroTutor from "@/assets/hero-tutor.png";
-import heroSitter from "@/assets/hero-sitter.png";
-import heroArt from "@/assets/hero-art.png";
-import kidsPlaying from "@/assets/kids-playing.jpg";
+const heroTutor = "/assets/hero-tutor.png";
+const heroSitter = "/assets/hero-sitter.png";
+const heroArt = "/assets/hero-art.png";
+const kidsPlaying = "/assets/kids-playing.jpg";
 
 const WHATSAPP = "https://wa.me/917218834640";
 
