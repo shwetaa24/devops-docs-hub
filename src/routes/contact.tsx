@@ -6,10 +6,10 @@ import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact DevOps Docs Hub" },
-      { name: "description", content: "Get in touch with the DevOps Docs Hub team for documentation support and inquiries." },
-      { property: "og:title", content: "Contact DevOps Docs Hub" },
-      { property: "og:description", content: "Questions about our infrastructure guides? We're here to help." },
+      { title: "Contact KidHelp — Book a helper today" },
+      { name: "description", content: "Reach KidHelp on WhatsApp or phone. We're open 7 days a week to help Kolhapuri parents find verified childcare and tutors." },
+      { property: "og:title", content: "Contact KidHelp — Book a helper today" },
+      { property: "og:description", content: "Open 7 days a week. WhatsApp or call to book a verified helper for your child." },
     ],
   }),
   component: ContactPage,
@@ -21,9 +21,9 @@ function ContactPage() {
       <Header />
       <section className="bg-hero py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
-          <h1 className="font-display text-5xl font-bold sm:text-6xl">Get in <span className="text-primary">touch</span></h1>
+          <h1 className="font-display text-5xl font-bold sm:text-6xl">Say <span className="text-primary">hello</span> 👋</h1>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Have questions about our documentation or want to contribute? Reach out to us.
+            One quick click and your child's helper is on the way.
           </p>
         </div>
       </section>

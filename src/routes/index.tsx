@@ -12,10 +12,10 @@ const WHATSAPP = "#";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "DevOps Docs Hub — Infrastructure & Deployment Guides" },
-      { name: "description", content: "Comprehensive documentation and guides for DevOps, infrastructure, and automation." },
-      { property: "og:title", content: "DevOps Docs Hub" },
-      { property: "og:description", content: "Infrastructure & Deployment Guides for modern engineering teams." },
+      { title: "KidHelp — Trusted tutors, sitters & coaches for kids" },
+      { name: "description", content: "Verified tutors, babysitters and activity coaches for your children. Fixed prices, on-time, fully background checked. Book on WhatsApp." },
+      { property: "og:title", content: "KidHelp — Trusted tutors, sitters & coaches for kids" },
+      { property: "og:description", content: "Verified, fixed-price help for parents — tutoring, babysitting, art, music & more." },
     ],
   }),
   component: Home,
@@ -48,11 +48,11 @@ function Hero() {
             <Sparkles className="h-3.5 w-3.5" /> 100% verified helpers
           </span>
           <h1 className="mt-5 font-display text-5xl font-bold leading-[1.05] text-foreground sm:text-6xl md:text-7xl">
-            Modern <br />Engineering <br />
-            <span className="text-primary">Docs Hub</span>
+            Trusted help <br />for parents in{" "}
+            <span className="text-primary">Kolhapur</span>
           </h1>
           <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-            Centralized documentation for your infrastructure, CI/CD pipelines, and cloud architecture. Clear, concise, and always up to date.
+            KidHelp connects you with verified tutors, babysitters and activity coaches for your children. Safe, reliable and always on time.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a

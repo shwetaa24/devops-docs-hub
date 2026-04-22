@@ -29,9 +29,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "DevOps Docs Hub — Infrastructure & Deployment Guides" },
-      { name: "description", content: "Comprehensive documentation and guides for DevOps, infrastructure, and automation." },
-      { name: "author", content: "DevOps Docs Hub" },
+      { title: "KidHelp — Trusted help for parents & children" },
+      { name: "description", content: "KidHelp connects parents with verified tutors, babysitters and kids' activity coaches. Safe, fixed-price, on-time." },
+      { name: "author", content: "KidHelp" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

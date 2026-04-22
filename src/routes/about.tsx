@@ -6,9 +6,9 @@ const kidsPlaying = "/assets/kids-playing.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About DevOps Docs Hub — Our Mission" },
-      { name: "description", content: "DevOps Docs Hub is a centralized platform for infrastructure and deployment documentation. Built for engineers by engineers." },
-      { property: "og:title", content: "About DevOps Docs Hub" },
+      { title: "About KidHelp — Our promise to parents" },
+      { name: "description", content: "KidHelp is a Kolhapur-based service connecting parents with verified tutors, sitters and coaches. Our story and our promise." },
+      { property: "og:title", content: "About KidHelp — Our promise to parents" },
       { property: "og:description", content: "Built by parents, for parents. Verified helpers, fixed prices, total peace of mind." },
     ],
   }),
@@ -23,7 +23,7 @@ function AboutPage() {
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
           <h1 className="font-display text-5xl font-bold sm:text-6xl">Built by parents, <br /><span className="text-primary">for parents</span></h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground">
-            We started DevOps Docs Hub because finding reliable infrastructure documentation was the hardest thing about being an engineer in a fast-paced environment.
+            We started KidHelp because finding a trustworthy person to spend time with our own children was the hardest thing about being parents in a busy city.
           </p>
         </div>
       </section>

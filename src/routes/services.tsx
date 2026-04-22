@@ -8,10 +8,10 @@ const WHATSAPP = "#";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Infrastructure Services — DevOps Docs Hub" },
-      { name: "description", content: "Explore our documentation on cloud infrastructure, CI/CD pipelines, and security automation." },
-      { property: "og:title", content: "Infrastructure Services — DevOps Docs Hub" },
-      { property: "og:description", content: "Comprehensive documentation and guides for DevOps, infrastructure, and automation." },
+      { title: "Services for kids — KidHelp" },
+      { name: "description", content: "Tutoring, babysitting, art, music, sports & language classes for children. Verified helpers, fixed rates." },
+      { property: "og:title", content: "Services for kids — KidHelp" },
+      { property: "og:description", content: "Tutoring, babysitting, art, music & more — verified helpers at fixed rates." },
     ],
   }),
   component: ServicesPage,
@@ -34,8 +34,8 @@ function ServicesPage() {
       <Header />
       <section className="bg-hero py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 text-center sm:px-6">
-          <h1 className="font-display text-5xl font-bold sm:text-6xl">Documentation <span className="text-primary">Categories</span></h1>
-          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">Expertly curated guides for modern infrastructure and engineering workflows.</p>
+          <h1 className="font-display text-5xl font-bold sm:text-6xl">Services for your <span className="text-primary">little ones</span></h1>
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">Every helper is background-checked, friendly and trained to work with children.</p>
         </div>
       </section>
 
