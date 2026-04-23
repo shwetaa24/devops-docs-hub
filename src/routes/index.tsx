@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ShieldCheck, BadgeIndianRupee, Clock, MapPin, Sparkles, Heart, BookOpen, Palette, Baby, Music, MessageCircle, Phone } from "lucide-react";
+import { ShieldCheck, BadgeIndianRupee, Clock, MapPin, Sparkles, Heart, BookOpen, Palette, Baby, Music } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 const heroTutor = "/assets/hero-tutor.png";
@@ -7,7 +7,7 @@ const heroSitter = "/assets/hero-sitter.png";
 const heroArt = "/assets/hero-art.png";
 const kidsPlaying = "/assets/kids-playing.jpg";
 
-const WHATSAPP = "#";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,7 +30,6 @@ function Home() {
       <Steps />
       <Services />
       <Testimonials />
-      <CTA />
       <Footer />
     </div>
   );
@@ -203,24 +202,6 @@ function Testimonials() {
               <div className="text-xs text-muted-foreground">{r.role}</div>
             </div>
           ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function CTA() {
-  return (
-    <section className="bg-background py-20">
-      <div className="mx-auto max-w-5xl rounded-[2rem] bg-primary px-6 py-16 text-center text-primary-foreground sm:px-12">
-        <h2 className="font-display text-4xl font-bold sm:text-5xl">Ready when you are</h2>
-        <p className="mx-auto mt-4 max-w-xl text-primary-foreground/85">
-          One quick message on WhatsApp and your child's helper is on the way.
-        </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <div className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 px-5 py-5 text-base font-bold text-white">
-            <Phone className="h-6 w-6" />
-          </div>
         </div>
       </div>
     </section>

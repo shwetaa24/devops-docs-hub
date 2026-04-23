@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import { MessageCircle, Phone } from "lucide-react";
 
 export function Footer() {
   return (
@@ -29,10 +28,6 @@ export function Footer() {
         <div>
           <h4 className="font-display text-base font-semibold">Contact</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li className="flex gap-4">
-              <div className="text-muted-foreground" aria-label="Call Us"><Phone className="h-5 w-5" /></div>
-              <div className="text-muted-foreground" aria-label="WhatsApp us"><MessageCircle className="h-5 w-5" /></div>
-            </li>
             <li>Kolhapur, Maharashtra</li>
           </ul>
         </div>
