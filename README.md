@@ -15,15 +15,15 @@ This branch documents a secure, serverless architecture for global content deliv
 - **Security:** OAC + SSL/TLS
 
 ### 🖼️ Setup & Configuration
-
+### Creating and configuring the Amazon S3 bucket for static website hosting.
 ![S3 Architecture](./s3/S3.png)
- Creating and configuring the Amazon S3 bucket for static website hosting.
 
+###Uploading website files and static assets to the S3 bucket.
 ![Assets](./s3/assets.png)
- Uploading website files and static assets to the S3 bucket.
 
+### Overview of the AWS Cloud architecture and configuration.
 ![Cloud](./s3/cloud.png)
-Overview of the AWS Cloud architecture and configuration.
 
+### Setting up the Amazon CloudFront distribution with Origin Access Control (OAC) and SSL.
 ![Cloudfront](./s3/clodfront.png)
-Setting up the Amazon CloudFront distribution with Origin Access Control (OAC) and SSL.
+
