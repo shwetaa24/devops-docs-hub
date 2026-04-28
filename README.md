@@ -18,7 +18,7 @@ This branch documents a secure, serverless architecture for global content deliv
 ### Creating and configuring the Amazon S3 bucket for static website hosting.
 ![S3 Architecture](./s3/S3.png)
 
-###Uploading website files and static assets to the S3 bucket.
+### Uploading website files and static assets to the S3 bucket.
 ![Assets](./s3/assets.png)
 
 ### Overview of the AWS Cloud architecture and configuration.
