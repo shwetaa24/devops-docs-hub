@@ -19,4 +19,4 @@ This branch documents the manual deployment of a React application on a virtual 
 ### 🖼️ Setup & Configuration
 
 ![EC2 Architecture](./EC2/EC2.png)
- AWS EC2 Dashboard showing the running instance and Public IP.*
+ AWS EC2 Dashboard showing the running instance and Public IP.
