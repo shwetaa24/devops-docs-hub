@@ -16,9 +16,9 @@ This branch showcases the use of developer-focused platforms for automated CI/CD
 - **SSL:** Auto-generated Let's Encrypt certificates
 
 ### 🖼️ Setup & Configuration
-
+### Vercel Dashboard showing the "Deployment Successful" green checkmark.
 ![Vercel Deployment](VercelNet/vercel.png)
-Vercel Dashboard showing the "Deployment Successful" green checkmark.
 
+### Netlify Dashboard showing the "Deployment Successful" checkmark.
 ![Netlify Deployment](VercelNet/netlify.png)
-Netlify Dashboard showing the "Deployment Successful" checkmark.
+
