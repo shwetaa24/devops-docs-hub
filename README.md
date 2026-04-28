@@ -18,7 +18,7 @@ This branch showcases the use of developer-focused platforms for automated CI/CD
 ### 🖼️ Setup & Configuration
 
 ![Vercel Deployment](VercelNet/vercel.png)
-*Figure 1: Vercel Dashboard showing the "Deployment Successful" green checkmark.*
+Vercel Dashboard showing the "Deployment Successful" green checkmark.
 
 ![Netlify Deployment](VercelNet/netlify.png)
-*Figure 2: Netlify Dashboard showing the "Deployment Successful" checkmark.*
+Netlify Dashboard showing the "Deployment Successful" checkmark.
