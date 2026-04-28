@@ -17,6 +17,6 @@ This branch documents the manual deployment of a React application on a virtual 
 - **Runtime:** Node.js v22.x
 
 ### 🖼️ Setup & Configuration
-
+ ###  AWS EC2 Dashboard showing the running instance and Public IP.
 ![EC2 Architecture](./EC2/EC2.png)
- AWS EC2 Dashboard showing the running instance and Public IP.
+
